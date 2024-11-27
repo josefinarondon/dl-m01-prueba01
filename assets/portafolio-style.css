@@ -45,3 +45,11 @@ h2 {
 header {
   padding: 5rem;
 }
+/* ---------------👇🏻 FOOTER --------------- */
+footer {
+  height: 50px;
+}
+.p_footer-font {
+  text-align: center;
+  font-size: smaller;
+}
