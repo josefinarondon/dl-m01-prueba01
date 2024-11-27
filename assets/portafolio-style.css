@@ -40,3 +40,8 @@ h2 {
 .navbar-nav a:hover {
   color: rgb(66, 184, 182);
 }
+
+/* ---------------👇🏻 HEADER --------------- */
+header {
+  padding: 5rem;
+}
