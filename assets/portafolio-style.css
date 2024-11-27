@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* ---------------👇🏻 BODY --------------- */
+.back_ground-body {
+  background-color: rgb(230, 227, 232);
+}
+
+body p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+}
+.text-spacing {
+  letter-spacing: 5px;
+  text-align: justify;
+}
+
+h2 {
+  font-family: "julius Sans One", sans-serif;
+}
+
+/* ---------------👇🏻 NAVBAR --------------- */
+.navbar-font {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.navbar-font a {
+  color: black;
+}
+
+.bg-navbar {
+  background-color: rgb(230, 227, 232);
+}
+
+.navbar a:hover {
+  color: rgb(66, 184, 182);
+}
+
+.navbar-nav a:hover {
+  color: rgb(66, 184, 182);
+}

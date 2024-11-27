@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* ---------------👇🏻 BODY --------------- */
+body p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+}
+.text-spacing {
+  letter-spacing: 5px;
+  text-align: justify;
+}
+
+h2 {
+  font-family: "julius Sans One", sans-serif;
+}
+
+section h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+/* ---------------👇🏻 NAVBAR --------------- */
+.navbar-font {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.navbar-font a {
+  color: rgb(201, 194, 206);
+}
+
+.bg-navbar {
+  background-color: rgb(41, 3, 75);
+}
+
+.navbar-nav a:hover {
+  color: rgb(0, 253, 248);
+}
+
+/* ---------------👇🏻 HEADER --------------- */
+header {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 4rem;
+}
+header h1 {
+  font-family: "julius Sans One", sans-serif;
+  color: rgb(0, 253, 248);
+  font-size: 5em;
+}
+
+.bg-header {
+  background-color: rgb(41, 3, 75);
+}
+
+header img {
+  width: 250px;
+  height: auto;
+}
+
+/* ---------------👇🏻 MAIN --------------- */
+.bg-col-left {
+  background-color: rgb(207, 220, 249);
+}
+
+.padding-left {
+  padding-left: 7em;
+}
+
+.padding-right {
+  padding-right: 7em;
+}
+div a:hover {
+  color: rgb(99, 5, 180);
+}
+
+/* ---------------👇🏻 TABLE --------------- */
+.table-font {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+table th {
+  font-weight: lighter;
+}
+
+.table-border_right {
+  border-right: 1px solid #dee2e6;
+}
+
+/* ---------------👇🏻 FOOTER --------------- */
+footer {
+  height: 50px;
+}
+.p_footer-font {
+  text-align: center;
+  font-size: smaller;
+}
