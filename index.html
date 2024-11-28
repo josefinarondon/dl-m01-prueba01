@@ -56,41 +56,43 @@
       </div>
     </nav>
     <!--------------👇🏻 HEADER -------------->
-    <header class="bg-header d-flex align-items-center flex-wrap p-4">
-      <!-- Imagen con ajuste responsivo -->
+    <header
+      class="bg-header d-flex flex-wrap align-items-center justify-content-center pb-5 w-100"
+    >
       <img
-        class="me-4 img-fluid rounded-circle"
+        class="img-fluid ps-3 pe-5"
         src="./assets/imgs/imgs-index/cv-foto.png"
         alt="Foto CV Josefina Rondón"
-        style="max-width: 150px"
       />
-
-      <!-- Contenedor del texto -->
       <div class="text-center text-md-start">
-        <h1 class="display-4 fw-bold text-light mb-2">JOSEFINA RONDÓN</h1>
-        <p class="text-spacing fs-5 text-light mb-0">RUT: ##.###.###-#</p>
+        <h1 class="display-1 fw-bold mb-2 me-0">JOSEFINA RONDÓN</h1>
+        <p
+          class="text-spacing text-center text-sm-start fs-5 text-light mb-0 me-0"
+        >
+          RUT: ##.###.###-#
+        </p>
       </div>
     </header>
     <main class="container-fluid">
       <div class="row">
         <!--------------👇🏻 COLUMNA IZQUIERDA -------------->
-        <div class="col-5 bg-col-left p-5">
+        <div class="col-12 col-sm-5 bg-col-left p-3 pe-3 p-sm-5">
           <!--------------👇🏻 INFO. CONTACTO -------------->
-          <section class="padding-left">
+          <section class="container">
             <h2>información de contacto</h2>
             <div class="d-flex">
               <i class="bi bi-geo-alt-fill fs-5"></i>
-              <p class="fs-5 px-3">
+              <p class="fs-6 fs-sm-5 px-3 text-start">
                 ###### ##### ####, ####. ###. Santiago, RM.
               </p>
             </div>
             <div class="d-flex">
               <i class="bi bi-phone-fill fs-5"></i>
-              <p class="fs-5 px-3">+56 9 #### ####</p>
+              <p class="fs-6 fs-sm-5 px-3 text-start">+56 9 #### ####</p>
             </div>
             <div class="d-flex">
               <i class="bi bi-envelope-fill fs-5"></i>
-              <p class="fs-5 px-3">
+              <p class="fs-6 fs-sm-5 px-3 text-start">
                 <a
                   href="https://mail.google.com/"
                   target="_blank"
@@ -101,9 +103,9 @@
             </div>
           </section>
           <!--------------👇🏻 DESTREZAS Y HABILIDADES -------------->
-          <section class="py-4 padding-left">
+          <section class="container py-4">
             <h2>destrezas y habilidades</h2>
-            <p>
+            <p class="fs-6 fs-sm-5">
               Buena comunicación, organización, trabajo en equipo,
               pro-actividad, administración, liderazgo, además de la habilidad
               para la planificación de actividades, se han obtenido en la
@@ -113,9 +115,9 @@
             </p>
           </section>
           <!--------------👇🏻 FORMACIÓN ACADÉMICA -------------->
-          <section class="pb-4 padding-left">
+          <section class="container pb-4">
             <h2>formación académica</h2>
-            <h5 class="mb-0">
+            <h5 class="mb-0 text-start">
               <strong>
                 Instituto Universitario ########### <br />
                 “######### ##### ## ######”</strong
@@ -130,19 +132,19 @@
             </p>
           </section>
           <!--------------👇🏻 REF. PERSONALES -------------->
-          <section class="padding-left">
+          <section class="container text-start">
             <h2>referencias personales</h2>
             <div class="mb-4">
               <h5 class="mb-0">
                 <strong>Dpto. RRHH, +56 2 #### ####</strong>
               </h5>
-              <p class="text-spacing">RRHH, ######## / ########</p>
+              <p class="text-spacing text-start">RRHH, ######## / ########</p>
             </div>
             <div class="mb-4">
               <h5 class="mb-0">
                 <strong>############, +56 9 #### ####</strong>
               </h5>
-              <p class="text-spacing">
+              <p class="text-spacing text-start">
                 Senior Full-Stack Developer, ######### ######
               </p>
             </div>
@@ -151,7 +153,7 @@
               <h5 class="mb-0">
                 <strong>############, +58 ### ### ####</strong>
               </h5>
-              <p class="text-spacing">
+              <p class="text-spacing text-start">
                 #### ##### y ######, <br />
                 ######## ########, C.A <br />
                 (######## #########)
@@ -161,7 +163,7 @@
               <h5 class="mb-0">
                 <strong>############, +58 ### ### ####</strong>
               </h5>
-              <p class="text-spacing mb-0">
+              <p class="text-spacing text-start">
                 ###### ## #####, <br />
                 ######## ########, C.A <br />
                 (####### #########)
@@ -170,9 +172,9 @@
           </section>
         </div>
         <!--------------👇🏻 COLUMNA DERECHA -------------->
-        <div class="col p-5">
+        <div class="col p-3 pe-3 p-sm-5">
           <!--------------👇🏻 IDIOMAS -------------->
-          <section class="padding-right">
+          <section class="container">
             <h2>idiomas</h2>
             <table class="table table-font">
               <thead>
@@ -203,7 +205,7 @@
             </table>
           </section>
           <!--------------👇🏻 EXP. LABORAL -------------->
-          <section class="py-4 padding-right">
+          <section class="container py-4 padding-right">
             <h2>experiencia laboral</h2>
             <div>
               <h5><strong>Customer Succes</strong></h5>
@@ -286,10 +288,14 @@
       </div>
     </main>
     <!--------------👇🏻 FOOTER -------------->
-    <footer class="d-flex justify-content-center align-items-center">
-      <p class="p_footer-font text-spacing mb-0">
-        © 2024 Elaborado por Josefina Rondón.
-      </p>
+    <footer>
+      <div
+        class="d-flex justify-content-center align-items-center ps-3 pe-3 pt-sm-3"
+      >
+        <p class="p_footer-font text-spacing mb-0">
+          © 2024 Elaborado por Josefina Rondón.
+        </p>
+      </div>
     </footer>
     <!--------------👇🏻 BOOTSTRAP -------------->
     <script
