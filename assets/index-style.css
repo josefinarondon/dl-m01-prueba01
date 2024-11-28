@@ -2,11 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* ---------------👇🏻 BODY --------------- */
-body p {
+body p,
+li {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   text-align: justify;
 }
+
 .text-spacing {
   letter-spacing: 5px;
   text-align: justify;
